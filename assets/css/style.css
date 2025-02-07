@@ -1095,3 +1095,41 @@ outline: none;
     transform: scale(0) rotateZ(-90deg);
   }
 }
+
+.form-comtainer123 {
+margin-top: 150px;
+margin-left: 200px;
+}
+.contact-container123 {
+  position: relative;
+  background-image: linear-gradient(147deg, #2b2a2a, black);
+  /* margin-left: 100px; */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 20px 25px 15px rgba(205, 110, 243, 0.3);
+}
+
+.contact-details123 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  margin: 6px 0;
+  color: white;
+}
+
+.contact-details123 strong {
+  color: whitesmoke;
+}
+
+
+@media (max-width: 767px) {
+  .contact-details123 p {
+    font-size: 14px;
+  }
+}
+
+.getTouch {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-left: 75px;
+  padding-bottom: 20px;
+}

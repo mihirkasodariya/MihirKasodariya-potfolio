@@ -133,24 +133,19 @@ let footer = $(`
 
 
 
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
-          <div class="form-style-6">
-             <div class="form-header">
-                <h6 class="display">Get in Touch</h6>
-              </div>
-                <form name="form1" action="https://formcarry.com/s/BywEPAJNb" method="POST" accept-charset="UTF-8" >
-                  <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
-                  <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
-              
-                  <div id="main">
-                    <button id="lnch" type="button" value="Send" >Send</button>
-                    <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
-                  </div>
-                </form>
-              </div>
-            </div>
+        <div class="form-comtainer123">
+          <div class="">
+          <div class="contact-container123">
+          <div class="getTouch" style="padding-left:35px"> 
+              <h6 class="display">Get in Touch</h6>
           </div>
+                 <div class="contact-details123">
+                     <p><strong>Name :</strong> Mihir Kasodariya</p>
+                     <p><strong>Mobile No :</strong> 9913043130</p>
+                     <p><strong>Address :</strong> Ambatalavdi, Katargam, Surat - 395004</p>
+                 </div>
+                  </div>
+            </div>
         </div>
     </div>
 
