@@ -856,3 +856,43 @@ SVG ANIMATIONS PROJECT PAGE
   animation-duration: 3.3s;
   transform-origin: 785.132px 295.833px;
 }
+
+
+.custom-container-abc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*  */
+.custom-row-xyz {
+  display: flex;
+  gap: 20px; /* Adjust spacing between projects */
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+.custom-box-123 {
+  width: 48%; /* Adjust width to fit two per row */
+  background: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 4px rgba(205, 110, 243, 0.3);
+}
+
+.custom-title-123 {
+  color: #c2c2c2;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.custom-desc-123 {
+  font-size: 16px;
+  color: #b5b5b5;
+}
+
+.custom-link-123 {
+  font-size: 14px;
+  color: #ff4500;
+}

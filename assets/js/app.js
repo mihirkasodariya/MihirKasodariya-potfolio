@@ -134,9 +134,9 @@ let footer = $(`
 
 
         <div class="form-comtainer123">
-          <div class="">
+          <div>
           <div class="contact-container123">
-          <div class="getTouch" style="padding-left:35px"> 
+          <div class="getTouch" style="margin-right:70px"> 
               <h6 class="display">Get in Touch</h6>
           </div>
                  <div class="contact-details123">
