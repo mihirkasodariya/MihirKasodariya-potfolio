@@ -126,6 +126,10 @@ const showCards = () => {
       <div class="custom-box-123">
         <h6 class="custom-title-123">${title}</h6>
         <p class="custom-desc-123"><strong>${description}</strong></p>
+        <div class="card-links">
+          <a href="${Previewlink}" target="_blank">Preview</a>
+          <a href="${Githublink}" target="_blank">GitHub</a>
+        </div>
       </div>
     `;
 
@@ -137,6 +141,7 @@ const showCards = () => {
 
   projectcards.innerHTML = output;
 };
+
 
 document.addEventListener("DOMContentLoaded", showCards);
 
