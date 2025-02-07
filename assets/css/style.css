@@ -230,7 +230,7 @@ html {
 
 .navbar-brand {
   font-family: Agustina;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -246,9 +246,10 @@ html {
   -webkit-appearance: none;
   position: relative;
   cursor: pointer;
-  width: 100px;
-  height: 40px;
-  background-image: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png);
+  width: 34px;
+  height: 34px;
+  background-image: url('../../assets/images/darkMood.png');
+  /* background-image: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png); */
   background-size: cover;
   border-radius: 50px;
   outline: none;
@@ -256,21 +257,22 @@ html {
   box-shadow: 0px 2px 5px 1px gray;
 }
 
-.dark_toggler:before {
+/* .dark_toggler:before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 40px;
-  width: 40px;
+  position: fixed;
+  top: 5px;
+  left: 30px;
+  height: 10px;
+  width: 10px;
   background-color: navy;
   border-radius: 50px;
   transition: all 0.9s;
   background-color: #f7ca33;
-}
+} */
 
 .dark_toggler:checked {
-  background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
+  background-image: url('../../assets/images/lightMood.png');
+  /* background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png); */
   transition: background-image 0.9s;
   box-shadow: 0px 2px 5px 1px rgb(187, 134, 201);
 }
@@ -300,8 +302,9 @@ html[light-mode="dark"] {
 
 .dark-theme .navbar-nav .nav-link,
 .dark-theme .navbar-brand {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.541);
 }
+/* color: rgba(255, 255, 255, 0.616); */
 
 .dark-theme .nav-link:hover{
 color: #ffffff !important;
