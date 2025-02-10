@@ -126,13 +126,13 @@ const showCards = () => {
       <div class="custom-box-123">
         <h6 class="custom-title-123">${title}</h6>
         <p class="custom-desc-123"><strong>${description}</strong></p>
-        <div class="card-links">
-          <a href="${Previewlink}" target="_blank">Preview</a>
-          <a href="${Githublink}" target="_blank">GitHub</a>
-        </div>
       </div>
     `;
 
+    // <div class="card-links">
+    //       <a href="${Previewlink}" target="_blank">Preview</a>
+    //       <a href="${Githublink}" target="_blank">GitHub</a>
+    //     </div>
     if (index % 2 === 1 || index === projects.length - 1) {
       // Close the row after two projects or if it's the last item
       output += `</div>`;

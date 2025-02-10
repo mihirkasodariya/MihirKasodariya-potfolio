@@ -949,10 +949,10 @@ form {
       justify-content: center;
   }
   #navbar-content {
-      margin-top: -180px;
+      
       height: 120vh;
       text-align: center;
-      transform: translateY(25%);
+      transform: translateY(10%);
   }
   #btnScrollToTop {
       display: none;
