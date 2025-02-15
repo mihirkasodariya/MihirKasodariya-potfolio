@@ -873,6 +873,7 @@ SVG ANIMATIONS PROJECT PAGE
 
 /* Default desktop view: 2 cards per row */
 .custom-row-xyz {
+  /* padding: 16px; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -883,6 +884,7 @@ SVG ANIMATIONS PROJECT PAGE
 
 /* Default to 50% width for desktop, 2 items per row */
 .custom-box-123 {
+  margin-bottom:30px;
   flex: 0 0 48%; /* Flex 48% to allow two items per row */
   padding: 20px;
   box-sizing: border-box;
@@ -894,7 +896,8 @@ SVG ANIMATIONS PROJECT PAGE
 @media (max-width: 767px) {
   .custom-box-123 {
     flex: 0 0 100%; /* Full width on mobile */
-    margin-bottom: 30px;
+    /* margin-bottom:16px; */
+    margin-bottom:30px;
   }
 
   .custom-row-xyz {
