@@ -78,39 +78,6 @@ const projects = [
     "Previewlink": "",
     "Githublink": ""
   },
-  // {
-  //     "title": "Tic toc toe Game",
-  //     "cardImage": "assets/images/project-page/tic-tac-toe.png",
-  //     "description": "A fun and interactive Tic Tac Toe game built using Flutter, allowing players to challenge each other.",
-  //     "tagimg": "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-  //     "Previewlink": "",
-  //     "Githublink": ""
-  // },
-  // {
-  //     "title": "Word Games",
-  //     "cardImage": "assets/images/project-page/word-game.jpg",
-  //     "description": "Built a battery life calculator and word games using Flutter, combining entertainment with productivity.",
-  //     "tagimg": "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-  //     "Previewlink": "",
-  //     "Githublink": ""
-  // },
-  // {
-  //     "title": "My Tailor",
-  //     "cardImage": "assets/images/project-page/my-tailor.jpg",
-  //     "description": "A custom clothing service platform built using TensorFlow to offer tailored clothing suggestions based on measurements.",
-  //     "tagimg": "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
-  //     "Previewlink": "",
-  //     "Githublink": ""
-  // },
-  // {
-  //     "title": "Maths Puzzles",
-  //     "cardImage": "assets/images/project-page/mathspuzzel.jpg",
-  //     "description": "A collection of challenging math puzzles designed to improve critical thinking and problem-solving skills. Built using Flutter.",
-  //     "tagimg": "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-  //     "Previewlink": "",
-  //     "Githublink": ""
-  // }
-
 ];
 
 // function for rendering project cards data
@@ -125,16 +92,10 @@ const showCards = () => {
     output += `
       <div class="custom-box-123">
         <h6 class="custom-title-123">${title}</h6>
-        <p class="custom-desc-123"><strong>${description}</strong></p>
+        <p class="custom-desc-123">${description}</p>
       </div>
     `;
-
-    // <div class="card-links">
-    //       <a href="${Previewlink}" target="_blank">Preview</a>
-    //       <a href="${Githublink}" target="_blank">GitHub</a>
-    //     </div>
     if (index % 2 === 1 || index === projects.length - 1) {
-      // Close the row after two projects or if it's the last item
       output += `</div>`;
     }
   });

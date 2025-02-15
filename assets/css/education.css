@@ -448,6 +448,24 @@ header p {
   align-items: center;
   background-image: linear-gradient(147deg, #2b2a2a, black);
   color: white;
+  transform: scale(0.9);
+  animation: fadeInScale 0.8s ease-out forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.timeline-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 25px 30px 20px rgba(205, 110, 243, 0.5);
 }
 
 .timeline-content::after {
