@@ -28,7 +28,7 @@ Make sure to read it here: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 
 ##   A. Setting up the Project
 
-**1.**  Fork [this](https://github.com/smaranjitghose/awesome-portfolio-websites) repository.
+**1.**  Fork [this](https://github.com/mihirkasodariya/MihirKasodariya.git) repository.
 
 <p align="center"><img src="readme_assets\Fork_Repo.gif" width="500" height="200" /></p>
 
@@ -36,7 +36,7 @@ Make sure to read it here: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 **2.**  Clone your forked copy of the project.
 
 ```
-git clone --depth 1 https://github.com/<your_user_name>/awesome-portfolio-websites.git
+git clone --depth 1 https://github.com/<your_user_name>/MihirKasodariya.git
 ```
 <p align="center"><img width=35% src="readme_assets\clone_repo.gif" width="500" height="200" /></p>
 
@@ -49,7 +49,7 @@ cd awesome-portfolio-websites
 **4.** Add a reference to the original repository.
 
 ```
-git remote add upstream https://github.com/smaranjitghose/awesome-portfolio-websites.git 
+git remote add upstream https://github.com/mihirkasodariya/MihirKasodariya.git
 ```
 
 **5.** Check the remotes for this repository.
@@ -64,7 +64,7 @@ git remote -v
 git pull upstream master
 ```
 
-- Comment on any existing [issue(s)](https://github.com/smaranjitghose/awesome-portfolio-websites/issues) raised by **project maintainers**. Otherwise raise a [new issue](https://github.com/smaranjitghose/awesome-portfolio-websites/issues/new).
+- Comment on any existing [issue(s)](https://github.com/mihirkasodariya/MihirKasodariya.git/issues) raised by **project maintainers**. Otherwise raise a [new issue](https://github.com/mihirkasodariya/MihirKasodariya.git/issues/new).
 
 > ### Guidelines for raising a new issue:
 >
